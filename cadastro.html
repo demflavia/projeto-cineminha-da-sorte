@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="viewport" content="width=device-width">
+		<title>Cineminha da Sorte - Cadastro</title>
+		<link rel="stylesheet"  href="reset.css">
+		<link rel="stylesheet"  href="style.css">
+		<script type="text/javascript"></script>
+		
+</head>
+		
+		<header>
+			<div class="caixa">
+				<img src="logo-cineminha.jpg" alt="Logo Cineminha da Sorte" width="100" height="100">
+					
+			</div>
+
+	<main>
+		<h1 class="cine">Cineminha da Sorte - Faça Seu Cadastro</h1>
+			<form>
+				 <label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Digite seu nome e sobrenome">
+
+				<label for="e-mail">E-mail</label>
+				<input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem">Quer deixar uma mensagem?</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe aqui sua mensagem"></textarea>
+			</form>
+
+				<fieldset>
+				<legend>Como prefere o nosso contato?</legend>
+				<label for="radio-email"> <input type="radio" name="contato" value="email" id="checkbox">E-mail</label>
+				
+
+				<label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="checkbox">Telefone</label>
+				
+
+				<label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="checkbox" checked>WhatsApp</label>
+
+				
+
+			</fieldset>
+
+			<button type="submit" value="Enviar Formulário" class="enviar1" onclick="enviarFormulario()">Enviar Formulário</button>
+			<script type="text/javascript">
+				function enviarFormulario() {
+					alert ("Obrigada pelo envio!")
+
+				}
+			</script>
+
+			<div class="rodape">
+		<footer>
+			<img src="logo-cineminha.jpg" alt="Logo Cineminha da Sorte" width="100" height="100">
+			<p class="copyright">&copy; Criado por Flávia Gonçalves - 2022</p>
+		</footer>
+	</div>
+
+
+</header>
