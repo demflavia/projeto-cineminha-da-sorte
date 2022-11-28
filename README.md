@@ -5,3 +5,5 @@ A ideia é um site onde ficam disponíveis rodadas de filmes para que as pessoas
 A parte do cadastro é para a pessoa ser adicionada a um grupo do WhatsApp podendo trocar ideias e conversar com outros cinéfilos de plantão sobre as escolhas das próximas rodadas. 
 Mas esse finalzinho de ser adicionado ao grupo ainda será adicionado ao projeto. 
 Espero que gostem!
+
+![logo-cineminha](https://user-images.githubusercontent.com/109384831/204380030-78dbd786-a239-4984-a14a-c76658c8dafe.jpg)
